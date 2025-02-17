@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
     <title>Portfolio</title>
 </head>
 <body>
@@ -24,7 +32,7 @@
     <section class="hero-section">
         <div class="text">
             <h2>Hola, soy Sergi</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quaerat totam modi soluta dolorem quibusdam impedit? Doloremque exercitationem veritatis, dolorum adipisci quae ut earum odio placeat, eum minus laboriosam et?</p>
+            <p>Un apasionado por las novedades en tecnología, soy un programador especializado en Java back-end con una sólida base en tecnologías como Spring Boot, JPA Hibernate y APIs REST. Actualmente, estoy cursando un máster en Desarrollo Full Stack e Inteligencia Artificial, lo que me permite mantenerme a la vanguardia en tendencias tecnológicas y ampliar mis competencias profesionales.</p>
 
             <div class="links">
                 <a href="#skills">
@@ -47,7 +55,7 @@
     <section id="skills" class="skills-section">
         <h2>Skills</h2>
         <div class="text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perspiciatis iure distinctio quidem aperiam necessitatibus omnis possimus excepturi amet quos rerum? Perferendis repellat natus saepe quaerat quibusdam neque recusandae optio?
+          Siempre he tenido un perfil orientado a la innovación y la aplicación de nuevas tecnologías, sin dejar de ser especialmente cuidadoso con el análisis de requisitos y la planificación. Estoy en constante formación en herramientas clave como Node.js, Angular, Docker, y despliegues modernos con microservicios y bases de datos SQL y NoSQL como MySQL y MongoDB.+
         </div>
   
         <div class="cells">
@@ -75,7 +83,24 @@
             <img src="img/Spring_Boot-logo.webp" alt="react logo">
             <span>SpringBoot</span>
           </div>
+
+          <div class="cell">
+            <img src="img/mongo-logo.png" alt="react logo">
+            <span>MongoDB</span>
+          </div>
+
+          <div class="cell">
+            <img src="img/sql-logo.webp" alt="react logo">
+            <span>SQL</span>
+          </div>
+
+          <div class="cell">
+            <img src="img/python-5-logo.webp" alt="react logo">
+            <span>Python</span>
+          </div>
+
         </div>
+      </div>
       </section>
 
       <section id="contact" class="contact-section">
@@ -87,15 +112,23 @@
             </div>
             <form>
                 <label for="name">Nombre</label>
-          <input type="text" id="name">
+                <input type="text" id="name">
 
-          <label for="email">Email</label>
-          <input type="email" id="email">
+                <label for="email">Email</label>
+                <input type="email" id="email">
 
-          <label for="message">Mensaje</label>
-          <textarea id="message" cols="30" rows="10"></textarea>
+                <label for="gender">Género</label>
+                <select id="gender">
+                  <option value="male">Masculino</option>
+                  <option value="female">Femenino</option>
+                  <option value="other">Otro</option>
+                </select>
 
-          <button type="submit">Send</button>
+                <label for="message">Mensaje</label>
+                <textarea id="message" cols="30" rows="10"></textarea>               
+                
+
+                <button type="submit">Send</button>
             </form>
         </div>
 
